@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+.main-container {
+  margin: 190px auto 0;
+}
+
+.google-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 92px;
+  width: 272px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-icon {
+  width: 17px;
+  position: absolute;
+  top: 40px;
+  /* bottom: 50px; */
+  left: 10px;
+  /* right: 0;   */
+}
+
+.google-lens {
+  width: 20px;
+  position: absolute;
+  /* bottom: 50px; */
+  right: 30px;
+}
+
+.mic-icon {
+  width: 25px;
+  position: absolute;
+  /* bottom: 50px; */
+  right: 60px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 20px 20px 20px 40px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 1px 6px 0px #20212447;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.search-button button {
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  outline: none;
+  background-color: #e4e5e7;
+  padding: 10px 20px;
+  color: #3c4043;
+}
+
+.search-button button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.languages a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: small;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 468px) {
+  .main-container {
+    margin-top: 140px;
+  }
+  .google-logo {
+    width: 200px;
+  }
+  form {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    position: relative;
+  }
+  input[type="text"] {
+    padding: 17px 15px 17px 30px;
+    font-size: 16px;
+  }
+  .search-icon {
+    width: 15px;
+    position: absolute;
+    top: 38px;
+    /* right: 0;   */
+  }
+  .languages a {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  input::placeholder {
+    font-size: 13px;
+  }
+}
