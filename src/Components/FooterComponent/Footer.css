@@ -3,6 +3,7 @@
   margin-top: 310px;
   color: #70757a;
   background-color: rgb(232, 231, 231);
+  overflow: hidden;
 }
 
 .service-container {
