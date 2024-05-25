@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 .footer {
   /* margin-top: 310px; */
+  padding: 15px;
+  padding-bottom: 20px;
   color: #70757a;
   background-color: rgb(232, 231, 231);
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
+  overflow: hidden;
 }
 
 .service-container {
