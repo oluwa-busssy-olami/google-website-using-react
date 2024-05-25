@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 .footer {
   /* margin-top: 310px; */
-  padding: 15px;
-  padding-bottom: 20px;
+  padding: 10px;
   color: #70757a;
   background-color: rgb(232, 231, 231);
   position: absolute;
@@ -59,6 +58,21 @@
 .copy-wright {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 468px) {
+  footer {
+    padding: 10px;
+  }
+  .location h2 {
+    padding: 0 20px 6px 20px;
+    font-size: 14px;
+  }
+  .left,
+  .copy-wright,
+  .right {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 868px) {

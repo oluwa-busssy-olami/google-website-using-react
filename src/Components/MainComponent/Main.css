@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 .main-container {
-  margin: 210px auto 0;
+  margin: 220px auto 0;
 }
 
 .google-logo {
@@ -17,7 +17,7 @@ form {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   margin: 0 auto;
   position: relative;
