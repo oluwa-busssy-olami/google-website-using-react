@@ -34,7 +34,7 @@ form {
 }
 
 .google-lens {
-  width: 28px;
+  width: 30px;
   position: absolute;
   /* bottom: 50px; */
   right: 30px;
@@ -55,6 +55,10 @@ input[type="text"] {
   border: none;
   font-size: 16px;
   box-shadow: 0 1px 6px 0px #20212447;
+}
+
+input::placeholder {
+  padding-left: 10px;
 }
 
 .search-button {

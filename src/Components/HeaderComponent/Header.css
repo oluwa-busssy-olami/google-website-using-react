@@ -46,3 +46,9 @@
   width: 30px;
   border-radius: 50%;
 }
+
+@media (max-width: 468px) {
+  .header {
+    margin-right: 13px;
+  }
+}
