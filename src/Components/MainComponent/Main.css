@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 .main-container {
-  margin: 190px auto 0;
+  margin: 200px auto 0;
 }
 
 .google-logo {
@@ -97,9 +97,9 @@ input[type="text"] {
   text-decoration: underline;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 768px) {
   .main-container {
-    margin-top: 140px;
+    margin-top: 150px;
   }
   .google-logo {
     width: 200px;
