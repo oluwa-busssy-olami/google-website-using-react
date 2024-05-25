@@ -67,13 +67,16 @@
     padding: 10px;
   }
   .location h2 {
-    padding: 0 20px 6px 20px;
-    font-size: 14px;
+    padding: 0 20px 6px 15px;
+    font-size: 13px;
+  }
+  .left {
+    padding-left: 0;
   }
   .left,
   .copy-wright,
   .right {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
