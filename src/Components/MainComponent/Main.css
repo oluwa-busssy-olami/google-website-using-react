@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 .main-container {
   margin: 220px auto 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .google-logo {
@@ -17,38 +18,38 @@ form {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  max-width: 700px;
+  max-width: 650px;
   width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
 .search-icon {
-  width: 17px;
+  width: 20px;
   position: absolute;
   top: 40px;
   /* bottom: 50px; */
-  left: 10px;
+  left: 17px;
   /* right: 0;   */
 }
 
 .google-lens {
-  width: 20px;
+  width: 28px;
   position: absolute;
   /* bottom: 50px; */
   right: 30px;
 }
 
 .mic-icon {
-  width: 25px;
+  width: 28px;
   position: absolute;
   /* bottom: 50px; */
-  right: 60px;
+  right: 70px;
 }
 
 input[type="text"] {
   flex: 1;
-  padding: 20px 20px 20px 40px;
+  padding: 20px 20px 20px 50px;
   border-radius: 40px;
   outline: none;
   border: none;
@@ -68,10 +69,10 @@ input[type="text"] {
 .search-button button {
   border: none;
   border-radius: 7px;
-  font-size: 14px;
+  font-size: 15px;
   outline: none;
   background-color: #e4e5e7;
-  padding: 10px 20px;
+  padding: 12px 25px;
   color: #3c4043;
 }
 
@@ -89,7 +90,7 @@ input[type="text"] {
 .languages a {
   margin-left: 10px;
   text-decoration: none;
-  color: #1a0dab;
+  color: blue;
   font-size: small;
 }
 

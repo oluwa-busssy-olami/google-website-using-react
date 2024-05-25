@@ -9,6 +9,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 25px;
 }
 
 .header-component {
@@ -18,12 +19,16 @@
   padding: 10px;
   padding-left: 30px;
   margin-top: 15px;
-  gap: 12px;
+  gap: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 14px;
   color: rgba(0, 0, 0, 0.87);
   font-size: 13px;
+}
+
+.menu {
+  font-size: 15px;
+  padding-top: 0px;
 }
 
 .header-component:hover {
@@ -37,7 +42,6 @@
 }
 
 .avatar {
-  width: 28px;
+  width: 30px;
   border-radius: 50%;
-  align-items: center;
 }

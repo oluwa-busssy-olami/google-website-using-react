@@ -9,6 +9,7 @@
   bottom: 0;
   right: 0;
   overflow: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .service-container {
@@ -16,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 8px 0 10px 0;
+  font-weight: 600;
   /* Combine padding for consistency */
 }
 
@@ -24,9 +26,9 @@
 }
 
 .location h2 {
-  padding: 10px 20px 6px 20px;
+  padding: 10px 20px 6px 10px;
   color: #70757a;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 20px;
   font-size: 18px;
   border-bottom: 1px solid #dadce0;
