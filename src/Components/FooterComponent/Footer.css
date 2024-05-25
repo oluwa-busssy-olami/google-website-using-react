@@ -18,7 +18,6 @@
   align-items: center;
   padding: 8px 0 10px 0;
   font-weight: 600;
-  /* Combine padding for consistency */
 }
 
 .copywright img {
@@ -64,15 +63,16 @@
 
 @media (max-width: 468px) {
   footer {
-    padding: 10px;
+    padding: 0;
   }
   .location {
     margin-left: 0;
     padding-left: 0;
   }
   .location h2 {
-    padding: 0 20px 6px 15px;
-    font-size: 13px;
+    padding: 0 10px 6px 15px;
+    font-size: 14px;
+    font-weight: 600;
   }
   .left {
     padding-left: 0;
@@ -80,7 +80,7 @@
   .left,
   .copy-wright,
   .right {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 
@@ -102,7 +102,7 @@
     flex-direction: column;
     padding: 10px 0;
     /* Combine padding for consistency */
-    gap: 5px;
+    gap: 8px;
     font-size: 16px;
   }
 }

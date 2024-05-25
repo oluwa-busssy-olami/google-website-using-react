@@ -77,7 +77,7 @@ input::placeholder {
   outline: none;
   background-color: #e4e5e7;
   padding: 12px 25px;
-  color: #3c4043;
+  color: #5c5e60;
 }
 
 .search-button button:hover {
@@ -128,6 +128,7 @@ input::placeholder {
   .search-button button {
     font-size: 14px;
     opacity: 0.8;
+    padding: 10px 20px;
   }
   .languages a {
     margin-left: 10px;
